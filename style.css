@@ -3,15 +3,19 @@ body{
 }
 /***Navigation Styles **/
 nav{
-    bacgroung-color: 
+    background-color: #E5e1e1;
+    padding: 1em;
 }
 nav ul{
     padding-left: 0;
     list-style-type: none;
+    text-align: center;
 }
 nav li{
     display: inline;
     padding: 0 10pt;
+    text-transform:uppercase;
+    letter-spacing: 0.1rem;
 }
 
 nav a{
