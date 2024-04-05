@@ -32,3 +32,20 @@ nav a:visited{
 nav a:active{
     color:aqua;
 }
+header,main{
+    margin: 0 1rem;
+}
+
+/*****CONTACT FORM STYLES******/
+form ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+label{
+    display:inline-block;
+    min-width: 90px;
+    text-align: right;
+}
+
+
+/***********************************/
