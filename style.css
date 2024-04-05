@@ -1,0 +1,30 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/***Navigation Styles **/
+nav{
+    bacgroung-color: 
+}
+nav ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+    padding: 0 10pt;
+}
+
+nav a{
+    text-decoration: none;
+    color: #336941;
+}
+nav a:hover{
+    text-decoration: underline;
+    color:darkcyan;
+}
+nav a:visited{
+    color:black;
+}
+nav a:active{
+    color:aqua;
+}
