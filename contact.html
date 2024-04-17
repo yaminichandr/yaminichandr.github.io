@@ -21,7 +21,7 @@
          <P class="tagline">Where creativity meets function</P>
     </header>
     <main>
-       <form action="/my-form-handling-page" method="post">
+       <form action="https://api.sheetmonkey.io/form/gSqtMY9AhPj5hMNgsi3q1x" method="post">
         <ul>
             <li><label for="name">Name</label>
              <input type="text" id="name" name="user_name">
@@ -35,6 +35,7 @@
                  <textarea name="user_message" id="msg"cols="30" rows="10"></textarea>
             </li>
             <li class="form-button">
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
                 <button type="submit">Send your message</button>
             </li>
             
