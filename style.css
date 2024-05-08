@@ -1,5 +1,6 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 /***Navigation Styles **/
 nav{
@@ -20,17 +21,17 @@ nav li{
 
 nav a{
     text-decoration: none;
-    color: #336941;
+    color: #610826;
 }
 nav a:hover{
     text-decoration: underline;
-    color:darkcyan;
+    color:rgb(95, 8, 44);
 }
 nav a:visited{
     color:black;
 }
 nav a:active{
-    color:aqua;
+    color:rgb(10, 86, 136);
 }
 header,main{
     margin: 0 1rem;
@@ -39,7 +40,7 @@ header,main{
 /*****CONTACT FORM STYLES******/
 form ul{
     list-style-type: none;
-    padding-left: 0;
+    padding-left: 5rem;
 }
 label{
     display:inline-block;
@@ -49,17 +50,17 @@ label{
 /***badge style***/
 
 
-#photos{
+#badge-gallery{
     margin-top: 30px;
 }
 
-#photos img{
+#badge-gallery img{
     display:block;
     width: 100%;
     margin-top: 9px;
 }
 @media (min-width: 500px){
-    #photos{
+    #badge-gallery{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 6px;
