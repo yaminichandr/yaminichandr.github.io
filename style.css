@@ -1,6 +1,10 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    
+}
+main,header,footer{
+    max-width: 700px;
+    margin: 0 auto;
 }
 /***Navigation Styles **/
 nav{
@@ -33,9 +37,8 @@ nav a:visited{
 nav a:active{
     color:rgb(10, 86, 136);
 }
-header,main{
-    margin: 0 1rem;
-}
+
+
 
 /*****CONTACT FORM STYLES******/
 form ul{
@@ -48,10 +51,12 @@ label{
     text-align: right;
 }
 /***badge style***/
-
-
 #badge-gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 6px
     margin-top: 30px;
+    padding: 20px;
 }
 
 #badge-gallery img{
@@ -62,10 +67,32 @@ label{
 @media (min-width: 500px){
     #badge-gallery{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 6px;
-
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 6px
         margin-top: 0;
     }
+
+/*****work gallery styles*****/
+#work-gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 6px
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#work-gallery img{
+    display:block;
+    width: 100%;
+    margin-top: 9px;
+}
+@media (min-width: 500px){
+    #work-gallery{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 6px
+        margin-top: 0;
+    }
+
 }
 /***********************************/
